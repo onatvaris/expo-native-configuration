@@ -35,6 +35,8 @@
     <string>1</string>
     <key>LSRequiresIPhoneOS</key>
     <true/>
+    <key>MY_CUSTOM_API_KEY</key>
+    <string>custom_secret_api</string>
     <key>NSAppTransportSecurity</key>
     <dict>
       <key>NSAllowsArbitraryLoads</key>
