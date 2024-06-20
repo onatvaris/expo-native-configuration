@@ -7,8 +7,6 @@ import {
 
 const withMyApiKey: ConfigPlugin<{ apiKey: string }> = (config, { apiKey }) => {
   config = withInfoPlist(config, config => {
-    console.log('apiKey', apiKey)
-    console.log('config.modResults', config.modResults)
     config.modResults['MY_CUSTOM_API_KEY'] = apiKey;
     return config;
   });
