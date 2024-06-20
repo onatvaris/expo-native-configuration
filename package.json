@@ -1,5 +1,5 @@
 {
-  "name": "expo-native-configuration",
+  "name": "expo-configuration",
   "version": "0.1.0",
   "description": "My new module",
   "main": "build/index.js",
@@ -21,7 +21,10 @@
     "expo-native-configuration",
     "ExpoNativeConfiguration"
   ],
-  "repository": "https://github.com/onatvaris/expo-native-configuration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onatvaris/expo-native-configuration.git"
+  },
   "bugs": {
     "url": "https://github.com/onatvaris/expo-native-configuration/issues"
   },
